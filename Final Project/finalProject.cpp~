@@ -241,7 +241,8 @@ void Reservation::reserveSpace(string firstName, string lastName, string classNa
 		}
 
 	}
-        
+	cout<<"I'm sorry we don't offer that class"<<endl;
+	cout << "" <<endl;
 }
 
 customerInformation Reservation::findMember(string first, string last){
